@@ -1,0 +1,68 @@
+body{
+    background-image: url(img/photo-1508614999368-9260051292e5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: #256825; 
+}
+a:hover{
+    color: red;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+/* menu */
+.menu{
+   margin-top: 30px;
+   margin-bottom: 20px;
+   text-align: center;
+   font-size: larger;
+}
+.menu ul li{
+    display: inline-block;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.menu img{
+    margin: 0px 25px -20px;
+    background-size: cover;
+}
+
+.menu>ul>li{
+    position: relative;
+    display: inline-block;
+}
+.menu ul ul{
+    position:absolute;
+    display: none;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    width: 200px;
+    background-color: white;
+    box-shadow: 0 0 1 pixel gray;
+}
+.menu ul ul a{
+    display: block;
+    line-height: 30 px;
+    color: orangered;
+    text-decoration:none;
+    font-variant:small-caps;
+    font-size:larger;
+    padding:0 10 pixel;
+}
+.menu>ul>li:hover>ul{
+    display: block;
+}
+.menu ul ul a:hover{
+    background-color: orangered;
+    color: white
+}
